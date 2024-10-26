@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Javascript</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <img src="./images/js-logo-sm.png" alt="" />
+          <h1>Learning Javascript</h1>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="intro__section">
+          <div class="intro">
+            <div class="history">
+              <h2x class="title">History of Javascript</h2x>
+              <p class="history__text">
+                <strong>Brendan Eich</strong> developed JavaScript, a computer
+                language, in just ten days in May 1995. Initially called Mocha,
+                then LiveScript, it finally became known as JavaScript. It was
+                designed for the client-side of websites to add dynamic and
+                interactive elements to static HTML pages.
+              </p>
+              <p class="history__text">
+                JavaScript (/ˈdʒɑːvəskrɪpt/), often abbreviated as JS, is a
+                programming language and core technology of the Web, alongside
+                HTML and CSS. 99% of websites use JavaScript on the client side
+                for webpage behavior.[10] Web browsers have a dedicated
+                JavaScript engine that executes the client code. These engines
+                are also utilized in some servers and a variety of apps. The
+                most popular runtime system for non-browser usage is Node.js.
+                JavaScript is a high-level, often just-in-time compiled language
+                that conforms to the ECMAScript standard.[11] It has dynamic
+                typing, prototype-based object-orientation, and first-class
+                functions. It is multi-paradigm, supporting event-driven,
+                functional, and imperative programming styles. It has
+                application programming interfaces (APIs) for working with text,
+                dates, regular expressions, standard data structures, and the
+                Document Object Model (DOM) and
+                <strong>Javascript has gained popularity since 2015</strong>
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="about__section">
+          <div class="about__js">
+            <div class="about">
+              <h3>Introduction to JavaScript</h3>
+
+              <p class="about__text">
+                JavaScript is a scripting language that is used to create and
+                manage dynamic web pages, basically anything that moves on your
+                screen without requiring you to refresh your browser. It can be
+                anything from animated graphics to an automatically generated
+                Facebook timeline.
+              </p>
+              <img src="./images/js.JPG" alt="" />
+            </div>
+            <div class="about">
+              <h3>Why JavaScript?</h3>
+              <p class="about__text">
+                JavaScript is an essential programming language, almost
+                compulsory to learn for students or software developers that are
+                gravitated towards web development. Wondering why? Here’s the
+                answer: Javascript is the most popular programming language in
+                the world and that makes it a default choice for web
+                development. There are many frameworks available which you can
+                use to create web applications once you have learned JavaScript.
+              </p>
+            </div>
+            <div class="about">
+              <h3>What is JavaScript Used For?</h3>
+              <p class="about__text">
+                JavaScript is used in various fields from the web to servers,
+                and here’s a quick list of the significant areas it’s used in:
+                Web Applications: JavaScript is used for adding interactivity
+                and automation to websites. So, if you want your web application
+                to be anything more than just a static page of contents, you’ll
+                probably need to do some “JavaScript’ing.”
+              </p>
+              <img src="./images/js-app.JPG" alt="" />
+            </div>
+          </div>
+        </section>
+
+        <section class="data__section">
+          <div class="data__types">
+            <h2 class="data__title">Data types</h2>
+            <p class="data__text">
+              Data types describe the different types or kinds of data that
+              we're gonna be working with and storing in variables. In
+              Javascript, there are five basic, or primitive, types of data. The
+              five most basic types of data are strings, numbers, booleans,
+              undefined, and null. We refer to these as primitive data types.
+            </p>
+            <p class="data__devide">Data types are divided into two</p>
+            <div class="primitive__non-primitive">
+              <div class="data__primitive">
+                <p class="primitive__title">Primitive</p>
+                <p>1.Number</p>
+                <p>2.String</p>
+                <p>3.Boolean</p>
+                <p>4.BigInt</p>
+                <p>5.Symbol</p>
+                <p>6.Null</p>
+                <p>7.Undefined</p>
+              </div>
+              <div class="data__non-primitive">
+                <p class="primitive__title">Non-primitive</p>
+                <p>Only <strong>Object</strong></p>
+              </div>
+            </div>
+
+            <div class="primitives">
+              <p class="primitives__title">Number</p>
+              <p class="primitives__text">
+                JavaScript's number data type handles both integer and
+                floating-point arithmetic, but not without its quirks and
+                nuances-with implications for precision and performance that
+                developers must be mindful of when performing mathematical
+                operations.
+              </p>
+            </div>
+            <div class="primitives">
+              <p class="primitives__title">String</p>
+              <p class="primitives__text">
+                For text data, the JavaScript string data type comes into play,
+                with an extensive suite of operations that allow for
+                manipulation, examination, and transformation of textual data,
+                essential for any kind of textual analysis or processing.
+              </p>
+            </div>
+            <div class="primitives">
+              <p class="primitives__title">Boolean</p>
+              <p class="primitives__text">
+                The boolean data type, with its two values of true and false,
+                holds a critical role in flow control, enabling Javascript
+                developers to execute different code paths through structures
+                and perform conditional testing with clarity and precision.
+              </p>
+            </div>
+            <div class="primitives">
+              <p class="primitives__title">BigInt</p>
+              <p class="primitives__text">
+                Lastly, for numbers that surpass the floating-point size that
+                JavaScript's number type can accurately represent, there is
+                bigint. This primitive data type allows for the representation
+                of integers of arbitrary size, thus expanding the realm of
+                numeric possibilities within a JavaScript application.
+              </p>
+            </div>
+            <div class="primitives">
+              <p class="primitives__title">Symbol</p>
+              <p class="primitives__text">
+                The introduction of symbol data type in modern JavaScript offers
+                unique and immutable values, predominantly used for object
+                properties, that ensure an unassailable level of privacy and
+                avoid property name collisions.
+              </p>
+            </div>
+            <div class="primitives">
+              <p class="primitives__title">Null</p>
+              <p class="primitives__text">
+                Representing a deliberate absence of any object value, null is a
+                primitive data type that is often used to intentionally denote
+                that a variable is empty or to signal the end of a chain of
+                objects.
+              </p>
+            </div>
+            <div class="primitives">
+              <p class="primitives__title">Undefined</p>
+              <p class="primitives__text">
+                The undefined data type in JavaScript signifies the state of an
+                uninitialized variable - a placeholder for variable value
+                assignments yet to be made. It is a unique type that speaks to
+                the very nature of JavaScript's variable declaration and the
+                concept of hoisting.
+              </p>
+            </div>
+            <div class="non__primitives">
+              <p class="non__primitives__title">Object</p>
+              <p class="non__primitives__text">
+                The Object type represents one of the JavaScript data types. It
+                is used to store various keyed collections and more complex
+                entities. Objects can be created using the Object() constructor
+                or object initializer/literal syntax.
+              </p>
+            </div>
+            <div class="math__object">
+              <p class="math__title">Math object</p>
+              <p class="math__text">
+                The Math object is a built-in object that stores various
+                mathematical constants and functions in its properties and
+                methods. The Math object is not a function object. Math doesn't
+                work with BigInt numbers
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <img src="./images/js-logo-sm.png" alt="" />
+          <h1>Learning Javascript</h1>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

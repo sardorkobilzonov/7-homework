@@ -1,0 +1,19 @@
+footer {
+  background-color: rgb(157, 180, 157);
+
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      font-weight: 700px;
+      cursor: pointer;
+    }
+    .footer__title {
+      padding-left: 200px;
+    }
+  }
+}
